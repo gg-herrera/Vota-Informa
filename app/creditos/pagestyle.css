@@ -1,0 +1,27 @@
+.icon {
+    animation-name: rainbow;
+    animation-timing-function: ease-in-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    20% {
+        color: orange;
+    }
+    40% {
+        color: lightgreen;
+    }
+    60% {
+        color: cyan;
+    }
+    80% {
+        color: magenta;
+    }
+    100% {
+        color: red;
+    }
+}
