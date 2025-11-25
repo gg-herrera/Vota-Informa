@@ -86,8 +86,8 @@ export default function creditos() {
       <main className='bg-white'>
         <header className="relative h-64 bg-slate-800">
           <img
-            src={Lyra.src}
-            alt="Lyra Productions"
+            src={Magata.src}
+            alt="Magata Innovations"
             className="w-full h-full object-cover opacity-40"
           />
 
