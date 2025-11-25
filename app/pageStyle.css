@@ -1,52 +1,67 @@
-/* From Uiverse.io by Ali-Tahmazi99 */ 
+/* From Uiverse.io by Ali-Tahmazi99 */
 .loader {
- width: 65px;
- height: 65px;
- border: 8px solid #000000a6;
- border-radius: 50px;
- position: relative;
- top: 80%;
- left: 50%;
- transform: translate(-50%);
+    font-size: 10px;
+    /* Base size for scaling */
+    width: 6.5em;
+    height: 6.5em;
+    border: 0.8em solid #000000a6;
+    border-radius: 50%;
+    position: relative;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .loader span {
- display: block;
- background: #000000;
+    display: block;
+    background: #000000;
 }
 
-.loader .hour ,
+.loader .hour,
 .loader .min {
- width: 6px;
- height: 22px;
- border-radius: 50px;
- position: absolute;
- top: 24.5px;
- left: 21px;
- animation: load9243 1.2s linear infinite;
- transform-origin: top center;
+    width: 0.6em;
+    height: 2.2em;
+    border-radius: 5em;
+    position: absolute;
+    top: 2.45em;
+    left: 2.1em;
+    animation: load9243 1.2s linear infinite;
+    transform-origin: top center;
 }
 
 .loader .min {
- height: 17px;
- animation: load9243 4s linear infinite;
+    height: 1.7em;
+    animation: load9243 4s linear infinite;
 }
 
 .loader .circel {
- width: 10px;
- height: 10px;
- border-radius: 50px;
- position: absolute;
- top: 19px;
- left: 19px;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.9em;
+    left: 1.9em;
 }
 
 @keyframes load9243 {
- 0% {
-  transform: rotate(0deg);
- }
+    0% {
+        transform: rotate(0deg);
+    }
 
- 100% {
-  transform: rotate(360deg);
- }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .loader {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .loader {
+        font-size: 6px;
+    }
 }

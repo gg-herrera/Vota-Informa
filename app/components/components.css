@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+
+    #controversiaCard,
+    #logrosCard {
+        max-width: 98vw;
+    }
+}
