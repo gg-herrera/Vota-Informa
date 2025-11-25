@@ -105,7 +105,7 @@ export default function creditos() {
 
         <div className="grid grid-rows-4 gap-4" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(40rem, 1fr))' }}>
           {herramientas.map((herramienta) => (
-            <div className="bg-white rounded-lg shadow-lg overflow-hidden" key={herramienta.id}>
+            <div className="bg-white rounded-lg shadow-lg overflow-hidden creditosCard" key={herramienta.id}>
               {/* Imagen */}
               <div className="h-64 bg-slate-200">
                 <img
